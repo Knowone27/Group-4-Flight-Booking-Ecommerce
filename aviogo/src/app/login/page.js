@@ -34,6 +34,10 @@ const Page = () => {
           <div className={styles.loginButton}>
             <button type="submit">Login</button>
           </div>
+
+          <a href="/create-account" className={styles.createAccountLink}>
+            Create account
+          </a>
         </div>
       </div>
     </div>
