@@ -22,7 +22,7 @@
 }
 
 .logobrand img {
-  padding-top: 3px;
+  padding-top: 20px;
   width: 150px;
 }
 /* Style the white login box */
@@ -76,7 +76,7 @@
 }
 .placeholder {
   width: 60%;
-  margin-bottom: 20px;
+  margin: 30px;
 }
 .createAccountLink {
   color: #007bff;
