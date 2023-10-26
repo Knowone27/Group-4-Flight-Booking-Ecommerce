@@ -5,6 +5,7 @@
     text-align: center;
     border-radius: 10px;
     background-color: #ffff;
+    margin-top: 25px;
   }
   
   .section {
@@ -15,32 +16,7 @@
     background-color: #f0f0f0;
     width: 440px;
   }
-  
-  .imageContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .imageBox {
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 1px solid lightblue;
-  }
-  
-  .editButton {
-    margin-top: 10px;
-    cursor: pointer;
-    color: #0070f3;
-    padding-bottom: 20px;
-  }
-  
+
   .userprofile h2 {
     margin-top: 50px;
   }

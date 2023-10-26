@@ -4,12 +4,6 @@ import styles from './userprofile.module.css';
 const UserProfilePage = () => {
   return (
     <div className={styles.container}>
-        <div className={styles.imageContainer}>
-            <div className={styles.imageBox}>
-              <img src="user-image.jpg" alt="User" />
-            </div>
-          <div className={styles.editButton}>Edit</div>
-        </div>
         <div className={styles.section}>
         <h2>User Information</h2>
         <div className={styles.infoTable}>
