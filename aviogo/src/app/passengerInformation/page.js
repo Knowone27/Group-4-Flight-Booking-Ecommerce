@@ -5,7 +5,7 @@ const page = () => {
     ////////////////////////////////////////////
   return (
     <div>
-        <h1>Passenger Information Page</h1>
+        <h1>Enter Passenger Information Below</h1>
     </div>
   )
 }
