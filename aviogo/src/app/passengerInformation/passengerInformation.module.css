@@ -20,13 +20,19 @@
     background: none;
     padding: 10px 15px;
     cursor: pointer;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     align-self: flex-start; /* Position at the top-left */
   }
 
   .backButtonImg {
     height: 60px;
     display: block;
+}
+
+.head2 {
+  font-size: .9em;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
   
   /* White Container Style */

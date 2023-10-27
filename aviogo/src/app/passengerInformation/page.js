@@ -11,6 +11,8 @@ const Page = () => {
         <img src="back_button.png" alt="Back" className={styles.backButtonImg}/>
       </a>
 
+      <h2 className={styles.head2}>Enter Passenger Information</h2>
+
       {/* White Container */}
       <div className={styles.container}>
         <div className={styles.airlineName}>AirlineName</div>
