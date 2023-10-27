@@ -66,11 +66,7 @@ const page = () => {
             <br/>
             <br/>
             <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
+            
             <div>
               <p>Payment Information</p>
               <br/>
@@ -125,7 +121,10 @@ const page = () => {
                 required
               />
             </div>
+    
           </div>
+          <br/>
+          <button id = "submit" className={styles.submitButton}>Submit</button>
         </div>
         
     </div>
