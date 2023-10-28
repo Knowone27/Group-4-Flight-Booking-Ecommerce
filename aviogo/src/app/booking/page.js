@@ -1,11 +1,100 @@
+import styles from './booking.module.css'
 
 const page = () => {
     /////////////////////////////
     /////////Booking Page////////// 
     /////////////////////////////
   return (
-    <div>
+    <div className={styles.main}>
+      <a href = '/dashboard'>
+        <img src = '/images/icons8-back-button-96 3.png' className={styles.back}></img>
+      </a>
+        
         <h1>Booking page</h1>
+        <br/>
+        <br/>
+        
+        <p className={styles.header}>Search Flights</p>
+        <div>
+          <select className={styles.dropdown}>
+            <option>Hartsfield Jackson International Airport</option>
+            <option>Chicago O'Hare International Airport</option>
+          </select>
+          <select className={styles.dropdown}>
+            <option>Chicago O'Hare International Airport</option>
+            <option>Hartsfield Jackson International Airport</option>
+          </select>
+          <input type = 'date' id = 'departure' className={styles.date}></input>
+          <input type = 'date' id = 'arrival' className={styles.date}></input>
+          <button id = 'submit' className={styles.submit}>Submit</button>
+        </div>
+
+        <div className={styles.wrapperWB}>
+          <div className={styles.flightBox}>
+            <div>
+              <img src='/images/delta logo.png' className={styles.logo}></img>
+              <p className={styles.airline}>Delta Airlines</p>
+
+              <p className={styles.departArrive}>October 15, 2023 - Departure</p>
+              <div className = {styles.wrapper}>
+                <br/>
+              
+                <div>
+                  <p className={styles.flightTimeDepart}>7:00 am</p>
+                  <br/>
+                  <p className={styles.cityAirport}>Atlanta (ATL)</p>
+                </div>
+              
+                <div className={styles.innerSquare}>
+                  <h2 className={styles.line}>
+                    <span className={styles.spanText}>
+                      1h15min
+                    </span>
+                  </h2>
+                </div>
+              
+                <div>
+                  <p className={styles.flightTimeArrive}>8:15 am</p>
+                  <br/>
+                  <p className={styles.cityAirport}>Chicago (ORD)</p>
+                </div>
+              </div>
+
+              <br/>
+              <br/>
+              <p className={styles.departArrive}>October 29, 2023 - Return</p>
+              <div className = {styles.wrapper}>
+                <br/>
+                <div>
+                  <p className={styles.flightTimeDepart}>8:42 am</p>
+                  <br/>
+                  <p className={styles.cityAirport}>Chicago (ORD)</p>
+                </div>
+              
+                <div className={styles.innerSquare}>
+                  <h2 className={styles.line}>
+                    <span className={styles.spanText}>
+                      1h15min
+                    </span>
+                  </h2>
+                </div>
+                <div>
+                  <p className={styles.flightTimeArrive}>11:51 am</p>
+                  <br/>
+                  <p className={styles.cityAirport}>Atlanta (ATL)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={styles.vline}></div>
+          <div className={styles.priceBox}>
+            <p id='price' className={styles.price}>$267</p>
+            <br/>
+            <a href='/passengerInformation'>
+            <button className={styles.bookButton}>Book</button>
+            </a>
+          </div>
+        </div>
     </div>
   )
 }
