@@ -12,7 +12,7 @@ const NavBar = () => {
   return (
     <div className={`${styles.container} pd-hz`}>
         <Link href="/">
-          <Image src={logo} className={styles.logo} height={50} width={null}/>
+          <Image alt='AVIOGO LOGO' src={logo} className={styles.logo} height={50} width={null}/>
         </Link>
         
         <div>
@@ -21,7 +21,7 @@ const NavBar = () => {
               :
               <div className={styles.toggle}>
               <Link href="/userprofile">
-                <Image src={userIcon} width={30} height={30}/>
+                <Image  alt="user profile icon" src={userIcon} width={30} height={30}/>
               </Link>
               <Link href="/login">Log out</Link>
               </div>
