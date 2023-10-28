@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
         <body className={`${inter.className}`}>
           <NavBar />
           {/*/pd-hz adds consistent padding across all page components//*/}
-          <div className='pd-hz ht-100 pd-vt'>
+          <div className='pd-hz ht-100 pd-vt bg-light-gray'>
           {children}
           </div>
           <Footer/>
