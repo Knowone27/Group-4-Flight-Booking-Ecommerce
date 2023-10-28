@@ -177,6 +177,8 @@
     width: 80px;
     cursor: pointer;
     margin: 20px 0;
+    text-decoration: none; /* Remove underline */
+    font-size: 1em;
   }
   
   

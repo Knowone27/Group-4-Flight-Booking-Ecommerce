@@ -106,7 +106,9 @@ const Page = () => {
                 <option value="WY">Wyoming</option>
               </select>
             </div>
-            <button className={styles.submitButton}>SUBMIT</button>
+            <a href="/confirmation" className={styles.submitButton}>
+              SUBMIT
+            </a>
           </div>
         </div>
       </div>
