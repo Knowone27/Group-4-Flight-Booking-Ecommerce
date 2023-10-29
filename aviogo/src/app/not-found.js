@@ -6,7 +6,7 @@ const PageNotFound = () => {
     ////////////////////////////////////////////
   return (
     <div>
-      <h1>Whoopsiesssss, you're lost.</h1>
+      <h1>Whoopsiesssss, you are lost.</h1>
     </div>
   )
 }

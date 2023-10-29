@@ -44,7 +44,7 @@ export default function Home() {
         <div>
           <label>Departure Date</label>
           <select defaultValue={"Select Date"}>
-          <option value="Select Date" hidden  disabled>Select Airport</option>
+          <option value="Select Date" hidden  disabled>Select Date</option>
             <option value="option1">Option 1</option>
             <option value="option2">Option 2</option>
             <option value="option3">Option 3</option>
@@ -54,7 +54,7 @@ export default function Home() {
         <div>
           <label>Return Date</label>
           <select defaultValue={"Select Date"}>
-          <option value="Select Date" hidden disabled>Select Airport</option>
+          <option value="Select Date" hidden disabled>Select Date</option>
             <option value="option1">Option 1</option>
             <option value="option2">Option 2</option>
             <option value="option3">Option 3</option>
