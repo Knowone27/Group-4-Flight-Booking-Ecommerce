@@ -4,8 +4,10 @@ const page = () => {
     ////////////////////////////////////////////
     /////////Confirmation Page////////// 
     ////////////////////////////////////////////
-    <div>
-        <h1>Confirmation Page</h1>
+    <div className="confirmation-page">
+      <h1>Order confirmed!</h1>
+      <p>Your order has been successfully confirmed.</p>
+      <p>Thank you for choosing Aviogo.</p>
     </div>
   )
 }
