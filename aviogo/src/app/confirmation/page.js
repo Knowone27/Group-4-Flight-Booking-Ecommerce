@@ -4,6 +4,7 @@ const page = () => {
     ////////////////////////////////////////////
     /////////Confirmation Page////////// 
     ////////////////////////////////////////////
+    //redeploy
     <div className="confirmation-page">
       <h1>Order confirmed!</h1>
       <p>Your order has been successfully confirmed.</p>
