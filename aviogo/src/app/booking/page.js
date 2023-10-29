@@ -1,4 +1,5 @@
 import styles from './booking.module.css'
+import Image from 'next/image'
 
 const page = () => {
     /////////////////////////////
@@ -7,7 +8,7 @@ const page = () => {
   return (
     <div className={styles.main}>
       <a href = '/dashboard'>
-        <img src = '/images/icons8-back-button-96 3.png' className={styles.back}></img>
+        <Image width={100} height={50} src = '/images/icons8-back-button-96 3.png' className={styles.back}></Image>
       </a>
         
         <h1>Booking page</h1>
@@ -18,10 +19,10 @@ const page = () => {
         <div>
           <select className={styles.dropdown}>
             <option>Hartsfield Jackson International Airport</option>
-            <option>Chicago O'Hare International Airport</option>
+            <option>Chicago OHare International Airport</option>
           </select>
           <select className={styles.dropdown}>
-            <option>Chicago O'Hare International Airport</option>
+            <option>Chicago OHare International Airport</option>
             <option>Hartsfield Jackson International Airport</option>
           </select>
           <input type = 'date' id = 'departure' className={styles.date}></input>
